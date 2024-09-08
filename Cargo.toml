@@ -1,0 +1,14 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"  # or "2018"
+
+
+[dependencies]
+
+
+deno_core = "0.156.0"  # Replace with the appropriate version
+
+tokio = { version = "1", features = ["full"] }
+
+
